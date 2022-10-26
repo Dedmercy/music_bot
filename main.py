@@ -34,4 +34,4 @@ if __name__ == "__main__":
         if filename.endswith(".py"):
             bot.load_extension(f'commands.{filename[:-3]}')
     bot.add_cog(Client(bot))
-    bot.run('MTAwNDE1NzMyMjkzMjc5NzQ2MQ.GSW3bk.N6II_cZY5Qz0On4gUkiTUmA8W-oFXh7fOyBd_8')
+    bot.run('MTAzNDk3MTY1NTc5NTEzMDM5OA.Glww1S.BlaELahcZXpsefUE-Gn5-VZ5by_5h8Ahdu8ckE')
