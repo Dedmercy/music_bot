@@ -3,6 +3,8 @@ import logging
 import os
 from discord.ext import commands
 
+import secret
+
 # logging
 logging.basicConfig(level=logging.INFO)
 
@@ -34,4 +36,4 @@ if __name__ == "__main__":
         if filename.endswith(".py"):
             bot.load_extension(f'commands.{filename[:-3]}')
     bot.add_cog(Client(bot))
-    bot.run('MTAzNDk3MTY1NTc5NTEzMDM5OA.Glww1S.BlaELahcZXpsefUE-Gn5-VZ5by_5h8Ahdu8ckE')
+    bot.run(secret.discord_TOKEN)
